@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>PCBender</Authors>
+    <Description>Easy access to inaccessible members.</Description>
+    <Copyright>Copyright 2019 PCBender</Copyright>
+    <PackageProjectUrl>https://github.com/pcbender/vavoom</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/pcbender/vavoom</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ImpromptuInterface" Version="7.0.1" />
+  </ItemGroup>
+
+</Project>
